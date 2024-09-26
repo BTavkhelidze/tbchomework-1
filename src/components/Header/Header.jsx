@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 const Header = () => {
   return (
-    <div className='header_container_wrapper'>
+    <header className='header_container_wrapper'>
       {/* <p>Tbc</p> */}
       <div className='header_container'>
         <nav>
@@ -20,7 +20,7 @@ const Header = () => {
           <p>Sign Up</p>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

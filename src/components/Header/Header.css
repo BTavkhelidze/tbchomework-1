@@ -13,12 +13,6 @@
   padding: 30px 60px;
 }
 
-/* .header_container > div:nth-child(1) {
-  display: flex;
-
-  gap: 100px;
-} */
-
 .header_container > nav > ul {
   display: flex;
   gap: 50px;
@@ -56,9 +50,8 @@
   cursor: pointer;
 
   border: 1px solid black;
-}
-
-.header_container > div > p:hover {
-  background-color: black;
-  color: #faf8f1;
+  &:hover {
+    background-color: black;
+    color: #faf8f1;
+  }
 }
