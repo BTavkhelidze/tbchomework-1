@@ -53,5 +53,6 @@
   &:hover {
     background-color: black;
     color: #faf8f1;
+    transition: all 0.5s;
   }
 }
