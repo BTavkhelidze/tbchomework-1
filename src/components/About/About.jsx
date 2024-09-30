@@ -3,7 +3,9 @@ import './About.css';
 const About = () => {
   return (
     <div className='about_container'>
-      <h1 className='aU_title'> About US</h1>
+      <div className='title_wrapper'>
+        <h1 className='title'> About US</h1>
+      </div>
       <div className='aU_description_wrapper'>
         <p className='aU_description'>
           Welcome to our online shoping website, your one-stop online shopping
@@ -13,8 +15,8 @@ const About = () => {
           online shopping easy, convenient, and accessible to everyone. We
           strive to provide a user-friendly interface, competitive prices, and a
           vast selection of products to cater to diverse tastes and preferences.
-          Whether you're looking for everyday essentials, gifts for loved ones.
-          If you have any questions or concerns, please don't hesitate to reach
+          Whether you are looking for everyday essentials, gifts for loved ones.
+          If you have any questions or concerns, please do not hesitate to reach
           out to us. Thank you for choosing us, and happy shopping!
         </p>
       </div>

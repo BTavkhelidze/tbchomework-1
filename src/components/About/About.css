@@ -7,10 +7,13 @@
   align-items: center;
   padding: 30px 60px;
 }
+.about_container > .title_wrapper {
+  width: 180px;
 
-.about_container > .aU_title {
-  text-align: center;
-  padding-bottom: 200px;
+  margin-bottom: 150px;
+}
+.about_container > .title_wrapper > .title {
+  margin-bottom: 50px;
 }
 
 .about_container > .aU_description_wrapper {
