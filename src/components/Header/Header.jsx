@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 const Header = () => {
   return (
@@ -7,10 +7,18 @@ const Header = () => {
       <div className='header_container'>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+            <li>
+              <Link to='/about'>About</Link>
+            </li>
+            <li>
+              <Link to='/contact'>Contact</Link>
+            </li>
+            <li>
+              <Link to='/projects'>About</Link>
+            </li>
           </ul>
         </nav>
 
