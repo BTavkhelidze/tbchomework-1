@@ -1,4 +1,3 @@
-import React from 'react';
 import './Contact.css';
 const Contact = () => {
   return (
@@ -8,7 +7,7 @@ const Contact = () => {
       </div>
       <div className='contact_wrapper'>
         <div className='contact'>
-          <div className='first_text'>Let's get in Touch</div>
+          <div className='first_text'>Let`s get in Touch</div>
         </div>
         <div className='submit_form'>
           <form>
