@@ -1,16 +1,26 @@
-import React from 'react';
 import './Header.css';
+
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header className='header_container_wrapper'>
       {/* <p>Tbc</p> */}
       <div className='header_container'>
+        {/* navigation from layout.jsx */}
         <nav>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+            <li>
+              <Link to='/about'>About</Link>
+            </li>
+            <li>
+              <Link to='/contact'>Contact</Link>
+            </li>
+            <li>
+              <Link to='/projects'>About</Link>
+            </li>
           </ul>
         </nav>
 
