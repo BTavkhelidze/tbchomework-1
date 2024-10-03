@@ -26,7 +26,12 @@ const Contact = () => {
               <label htmlFor='secondname'>Mobile</label>
             </div>
 
-            <button type='submit'>Submit</button>
+            <div className='label_wrapper'>
+              <textarea type='tel' id='secondname' required />
+              <label htmlFor='secondname'>Text</label>
+            </div>
+
+            <button type='submit'>Sand</button>
           </form>
         </div>
       </div>

@@ -1,6 +1,10 @@
 .footer_container_wrapper {
+  position: fixed;
   width: 100%;
   border-top: 1px solid black;
+  bottom: 0;
+  z-index: 100;
+  background-color: white !important;
 }
 .footer_container {
   max-width: 1440px;
