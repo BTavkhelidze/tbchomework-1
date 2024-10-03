@@ -22,6 +22,11 @@ const Content = () => {
         imgUrl='https://media.istockphoto.com/id/1320934166/photo/cosmetic-skin-care-products-on-green-leaves.jpg?s=612x612&w=0&k=20&c=X4pwnTaBzXHDOGZlcdJdlKxmYd__61xboHVIiR5JMIk='
         description=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea'
       />
+      <Card
+        title='Organic Beauty Products'
+        imgUrl='https://media.istockphoto.com/id/1320934166/photo/cosmetic-skin-care-products-on-green-leaves.jpg?s=612x612&w=0&k=20&c=X4pwnTaBzXHDOGZlcdJdlKxmYd__61xboHVIiR5JMIk='
+        description=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea'
+      />
     </main>
   );
 };

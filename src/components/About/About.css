@@ -10,10 +10,14 @@
 .about_container > .title_wrapper {
   width: 180px;
 
-  margin-bottom: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  margin-right: 30px;
 }
 .about_container > .title_wrapper > .title {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 
 .about_container > .aU_description_wrapper {

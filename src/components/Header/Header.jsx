@@ -25,6 +25,14 @@ const Header = () => {
         </nav>
 
         <div>
+          <div className='profile_wrapper'>
+            <Link to='/profile'>
+              <img
+                src='https://www.svgrepo.com/show/43426/profile.svg'
+                alt=''
+              />
+            </Link>
+          </div>
           <p>Sign In</p>
 
           <p>Sign Up</p>

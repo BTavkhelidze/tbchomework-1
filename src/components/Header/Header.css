@@ -1,6 +1,9 @@
 .header_container_wrapper {
   width: 100%;
   border-bottom: 1px solid black;
+  /* position: fixed; */
+  z-index: 100;
+  background-color: white;
 }
 .header_container {
   max-width: 1440px;
@@ -47,6 +50,8 @@
 .header_container > div {
   display: flex;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .header_container > div > p {
@@ -60,4 +65,20 @@
     color: #faf8f1;
     transition: all 0.5s;
   }
+}
+
+.header_container > div > .profile_wrapper {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_container > div > .profile_wrapper > a > img {
+  width: 34px;
+  height: 34px;
 }
