@@ -2,11 +2,11 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className='about_container'>
-      <div className='title_wrapper'>
+    <main className='about_container'>
+      <section className='title_wrapper'>
         <h1 className='title'> About US</h1>
-      </div>
-      <div className='aU_description_wrapper'>
+      </section>
+      <section className='aU_description_wrapper'>
         <p className='aU_description'>
           Welcome to our online shoping website, your one-stop online shopping
           destination! Our website is dedicated to providing a seamless and
@@ -19,8 +19,8 @@ const About = () => {
           If you have any questions or concerns, please do not hesitate to reach
           out to us. Thank you for choosing us, and happy shopping!
         </p>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 

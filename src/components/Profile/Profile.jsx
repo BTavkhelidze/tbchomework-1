@@ -2,12 +2,8 @@ import './Profile.css';
 
 const Profile = () => {
   return (
-    <div className='profile_container'>
-      {/* <div className='title_wrapper'>
-        <h1 className='title'>Profile</h1>
-      </div>
-      <div className='profile_content_wrapper'>hello</div> */}
-      <div className='description_content_wrapper'>
+    <main className='profile_container'>
+      <section className='description_content_wrapper'>
         <div className='bakcground_decoration'>
           <div className='profile_image'>
             <img
@@ -23,12 +19,11 @@ const Profile = () => {
               <span className='profile-email'>
                 Email: elmatadortopuria@gmail.com
               </span>
-              {/* <span> </span> */}
             </div>
           </div>
         </div>
-      </div>
-      <div className='profile_settings'>
+      </section>
+      <section className='profile_settings'>
         <nav>
           <ul>
             <li>Account settings </li>
@@ -38,8 +33,8 @@ const Profile = () => {
             <li>Notification </li>
           </ul>
         </nav>
-      </div>
-      <div className='account_settings'>
+      </section>
+      <section className='account_settings'>
         <form>
           <div className='label_wrapper'>
             <label htmlFor='username'>First Name</label>
@@ -73,8 +68,8 @@ const Profile = () => {
             <button type='submit'>Update</button>
           </div>
         </form>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 
