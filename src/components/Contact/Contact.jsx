@@ -1,11 +1,11 @@
 import './Contact.css';
 const Contact = () => {
   return (
-    <div className='contact_container'>
+    <main className='contact_container'>
       <div className='title_wrapper'>
         <h1 className='title'> Contact</h1>
       </div>
-      <div className='contact_wrapper'>
+      <section className='contact_wrapper'>
         <div className='contact'>
           <div className='first_text'>Let`s get in Touch</div>
         </div>
@@ -34,8 +34,8 @@ const Contact = () => {
             <button type='submit'>Sand</button>
           </form>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 
