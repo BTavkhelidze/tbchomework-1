@@ -1,5 +1,5 @@
+import Card from '../components/Card/Card';
 import './Content.css';
-import Card from '../Card/Card';
 
 const Content = () => {
   return (

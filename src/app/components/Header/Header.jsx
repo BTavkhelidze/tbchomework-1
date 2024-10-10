@@ -1,6 +1,6 @@
+// 'use client';
 import './Header.css';
-
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 const Header = () => {
   return (
     <header className='header_container_wrapper'>
@@ -10,27 +10,24 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <Link href='/'>Home</Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link href='/about'>About</Link>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
-            </li>
-            <li>
-              <Link to='/assignment3'>Assignment3</Link>
+              <Link href='/contact'>Contact</Link>
             </li>
 
             <li>
-              <Link to='/blog'>Blogs</Link>
+              <Link href='/blog'>Blogs</Link>
             </li>
           </ul>
         </nav>
 
         <div>
           <div className='profile_wrapper'>
-            <Link to='/profile'>
+            <Link href='/profile'>
               <img
                 src='https://www.svgrepo.com/show/43426/profile.svg'
                 alt=''
