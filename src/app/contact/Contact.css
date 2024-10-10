@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   padding: 30px 60px;
-  /* padding-bottom: 100px; */
 }
 .contact_container > .title_wrapper {
   width: 180px;
@@ -30,7 +29,7 @@
   text-align: center;
   margin: 80px auto;
   border: 1px solid black;
-  padding: 60px 20px 100px 20px;
+  padding: 40px 20px 60px 20px;
   border-radius: 12px;
 }
 
