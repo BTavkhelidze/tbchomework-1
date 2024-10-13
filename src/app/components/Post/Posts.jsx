@@ -28,7 +28,6 @@ const Posts = ({ post }) => {
               <img
                 className='reactions_image  '
                 src='https://www.svgrepo.com/show/504867/show-youtube-dislikes.svg'
-                //   src={like}
                 alt='likes button'
               />
             </span>
