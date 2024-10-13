@@ -10,7 +10,6 @@ const Content = () => {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  console.log('what');
 
   useEffect(() => {
     const fetchProducts = async () => {

@@ -29,7 +29,7 @@ a {
 
   /* flex: 0.4; */
 }
-.card > .image_wrapper img {
+.card > .image_wrapper > img {
   width: 100%;
   height: 200px;
   /* 

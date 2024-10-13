@@ -134,7 +134,10 @@
 
   padding: 20px 0;
 }
-.product_warranty > h3,
+.product_warranty > h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
 .product_reviews > h3 {
   font-size: 20px;
   margin-bottom: 20px;
