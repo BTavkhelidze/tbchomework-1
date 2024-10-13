@@ -1,22 +1,36 @@
-import PropTypes from 'prop-types';
+'use client';
+
+import { useRouter } from 'next/navigation';
 import './Card.css';
 
-const Card = ({ title, imgUrl, description }) => {
-  Card.propTypes = {
-    title: PropTypes.string.isRequired,
-    imgUrl: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-  };
+// import Link from 'next/link';
 
+const Card = ({ productsObj }) => {
+  const router = useRouter();
+
+  const handlClick = (id) => {
+    router.push(`./product/${id}`);
+  };
   return (
-    <div className='card1 card'>
-      <h1 className='title'>{title}</h1>
+    // <Link href={`/product/${productsObj.id}`}>
+    <div className='card'>
+      {/* card-desc_wrapper_reverse */}
       <div className='image_wrapper'>
-        <img src={imgUrl} alt='Blink Video Doorbell' />
+        <img alt='Blink Video Doorbell' src={productsObj.images[0]} />
       </div>
-      <p className='description'>{description}</p>
-      <button type='button'>Add to Cart</button>
+      <div className='card-desc_wrapper'>
+        <h1 className='title'>{productsObj.title}</h1>
+
+        {/* <p className='description'>{productsObj.description}</p> */}
+        <div className='price_wrapper'>
+          <p className='price'>{productsObj.price}$</p>
+          <button onClick={() => handlClick(productsObj.id)} type='button'>
+            More
+          </button>
+        </div>
+      </div>
     </div>
+    // </Link>
   );
 };
 

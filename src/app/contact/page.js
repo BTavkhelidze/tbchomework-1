@@ -23,12 +23,12 @@ const Contact = () => {
 
             <div className='label_wrapper'>
               <input type='tel' id='secondname' required />
-              <label htmlFor='secondname'>Mobile</label>
+              <label htmlFor='tel'>Mobile</label>
             </div>
 
             <div className='label_wrapper'>
-              <textarea type='tel' id='secondname' required />
-              <label htmlFor='secondname'>Text</label>
+              <textarea type='text' id='secondname' required />
+              <label htmlFor='text'>Text</label>
             </div>
 
             <button type='submit'>Sand</button>

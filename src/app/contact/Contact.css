@@ -106,8 +106,8 @@
 .contact_container > .contact_wrapper > .submit_form > form > button {
   justify-self: center;
   align-self: center;
-  margin-top: 20px;
-  padding: 40px 10px;
+  margin-top: 100px;
+  padding: 40px 20px;
   margin-top: 20px;
   background-color: white;
   padding: 12px 62px;
@@ -125,7 +125,7 @@
 
 .label_wrapper > textarea {
   width: 100%;
-  min-height: 80px;
+  min-height: 50px;
   border-radius: 4px;
   border: 1px solid black;
   padding: 20px 10px 10px;
